@@ -1,7 +1,7 @@
 ---
 title: "GitHub Pages 블로그 만들기 3: GitHub Actions로 자동 배포하기"
 layout: default
-date: 2026-04-25 11:00:00 +0900
+date: 2026-04-24 11:00:00 +0900
 nav_order: 3
 ---
 
@@ -130,4 +130,3 @@ https://사용자명.github.io/저장소명/
 - `build`는 Jekyll 사이트를 만들고, `deploy`는 GitHub Pages에 올린다.
 - Pages 설정에서 `Source`를 `GitHub Actions`로 선택해야 한다.
 - Custom domain은 개인 도메인이 있을 때만 사용한다.
-

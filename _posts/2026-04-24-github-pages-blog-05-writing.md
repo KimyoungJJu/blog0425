@@ -1,7 +1,7 @@
 ---
 title: "GitHub Pages 블로그 만들기 5: 글 작성하고 운영하기"
 layout: default
-date: 2026-04-25 13:00:00 +0900
+date: 2026-04-24 13:00:00 +0900
 nav_order: 5
 ---
 
@@ -17,7 +17,7 @@ Jekyll 블로그 글은 `_posts` 폴더에 넣는다.
 
 ```text
 _posts/
-  2026-04-25-my-first-post.md
+  2026-04-24-my-first-post.md
 ```
 
 파일명은 날짜로 시작해야 한다.
@@ -36,7 +36,7 @@ Markdown 파일 맨 위에는 front matter를 적는다.
 ---
 title: "나의 첫 블로그 글"
 layout: default
-date: 2026-04-25 13:00:00 +0900
+date: 2026-04-24 13:00:00 +0900
 nav_order: 1
 ---
 ```
@@ -58,7 +58,7 @@ nav_order Just the Docs 내비게이션 정렬 순서
 ---
 title: "나의 첫 블로그 글"
 layout: default
-date: 2026-04-25 13:00:00 +0900
+date: 2026-04-24 13:00:00 +0900
 nav_order: 1
 ---
 
@@ -123,4 +123,3 @@ push가 끝나면 GitHub Actions가 자동으로 실행된다. Actions가 성공
 - front matter로 제목, 날짜, 레이아웃을 설정한다.
 - 글을 커밋하고 push하면 GitHub Actions가 자동 배포한다.
 - 운영 초기에는 단순한 구조로 꾸준히 기록하는 것이 좋다.
-

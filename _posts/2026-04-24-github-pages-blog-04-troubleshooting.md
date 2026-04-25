@@ -1,7 +1,7 @@
 ---
 title: "GitHub Pages 블로그 만들기 4: Actions 에러 해결하기"
 layout: default
-date: 2026-04-25 12:00:00 +0900
+date: 2026-04-24 12:00:00 +0900
 nav_order: 4
 ---
 
@@ -109,4 +109,3 @@ https://사용자명.github.io/저장소명/
 - `Source`를 `GitHub Actions`로 선택해야 한다.
 - 설정 변경 후에는 workflow를 다시 실행해야 한다.
 - 과거 실패 기록은 사라지지 않는다. 최신 실행 성공 여부를 보면 된다.
-
