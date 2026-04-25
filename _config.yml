@@ -1,0 +1,30 @@
+title: YoungJJu Blog
+description: GitHub Pages blog powered by Just the Docs.
+theme: just-the-docs
+
+url: https://kimyoungjju.github.io
+baseurl: /blog0425
+
+permalink: pretty
+
+search_enabled: true
+heading_anchors: true
+color_scheme: light
+
+aux_links:
+  GitHub Repository: https://github.com/KimyoungJJu/blog0425
+
+nav_external_links:
+  - title: GitHub
+    url: https://github.com/KimyoungJJu
+
+collections:
+  posts:
+    permalink: "/posts/:name/"
+    output: true
+
+just_the_docs:
+  collections:
+    posts:
+      name: Posts
+
